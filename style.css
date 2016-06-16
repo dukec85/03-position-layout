@@ -1,51 +1,89 @@
 html {
   box-sizing: border-box;
-  font-size: 5rem;
+  font-size: 1rem;
 }
 body {
   margin: 0 0 2rem;
+  background-color: black;
 }
 
-avatar {
+.column-one {
+  left: 0;
+  bottom: 0;
+  overflow: auto;
+  border: solid red;
+  position: fixed;
+  max-width: 25%;
+  margin: 2rem;
+}
+
+.avatar {
+  max-width: 50%;
+  float: left;
+}
+
+.image {
+  width: 100%;
+}
+.health {
+  float: left;
+}
+
+.health-text {
+  color: white;
+}
+
+.health-bars {
+  color: white;
+}
+
+.column-two {
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  max-width: 10%;
+  margin: 2rem;
+}
+
+.weapon {
+background: blue;
 
 }
 
-health-text {
+.move-icons {
 
 }
 
-health-bars {
+.move-key {
 
 }
 
-weapon {
+.weapon-ammo {
 
 }
 
-move-icons {
+.weapon-text {
 
 }
 
-move-key {
+.column-three {
+  margin: auto;
+  top: 35%;
+  left: 45%;
+  display: block;
+  max-width: 10%;
+  position: fixed;
+  transform: translate(-50% -50%);
+}
+
+.skull {
 
 }
 
-weapon-ammo {
+.eliminitated {
 
 }
 
-weapon-text {
-
-}
-
-skull {
-
-}
-
-eliminitated {
-
-}
-
-move-status {
+.move-status {
 
 }

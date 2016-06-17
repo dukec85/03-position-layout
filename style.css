@@ -4,7 +4,7 @@ html {
 }
 body {
   margin: 0 0 2rem;
-  background-color: black;
+  background-color: grey;
 }
 
 .column-one {
@@ -69,19 +69,35 @@ background: blue;
 .column-three {
   margin: auto;
   top: 35%;
-  left: 45%;
+  left: 50%;*
   display: block;
-  max-width: 10%;
+  max-width: 7%;
   position: fixed;
   transform: translate(-50% -50%);
+  background: blue;
 }
 
 .skull {
 
 }
+.column-four {
+  background: green;
+  font-style: italic;
+  margin: auto;
+  top: 60%;
+  left: 45%;
+  display: block;
+  max-width: 20%;
+  position: fixed;
+  text-transform: uppercase;
+}
+.eliminated {
+  color: white;
+  float: left;
+}
 
-.eliminitated {
-
+strong {
+  color: red;
 }
 
 .move-status {

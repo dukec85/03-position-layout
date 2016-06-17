@@ -18,7 +18,7 @@ body {
 }
 
 .avatar {
-  max-width: 50%;
+  width: 20%;
   float: left;
 }
 
@@ -37,6 +37,10 @@ body {
   color: white;
 }
 
+.small {
+  font-size: 50%;
+}
+
 .column-two {
   right: 0;
   bottom: 0;
@@ -46,16 +50,19 @@ body {
 }
 
 .weapon {
-background: blue;
-
+  float: left;
+  background: blue;
+  width: 50%;
 }
 
 .move-icons {
-
+  float: left;
+  width: 25%;
 }
 
 .move-key {
-
+  float: left;
+  width: 25%;
 }
 
 .weapon-ammo {
@@ -63,7 +70,7 @@ background: blue;
 }
 
 .weapon-text {
-
+  color: white;
 }
 
 .column-three {

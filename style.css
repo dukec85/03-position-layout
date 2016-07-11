@@ -11,7 +11,7 @@ body {
   left: 0;
   bottom: 0;
   overflow: auto;
-  border: solid red;
+  border: solid transparent;
   position: fixed;
   max-width: 25%;
   margin: 2rem;
@@ -25,6 +25,7 @@ body {
 .image {
   width: 100%;
 }
+
 .health {
   float: left;
 }
@@ -51,7 +52,7 @@ body {
 
 .weapon {
   float: left;
-  background: blue;
+  background:
   width: 50%;
 }
 
@@ -73,34 +74,20 @@ body {
   color: white;
 }
 
-.column-three {
-  margin: auto;
-  top: 35%;
-  left: 50%;*
-  display: block;
-  max-width: 7%;
-  position: fixed;
-  transform: translate(-50% -50%);
-  background: blue;
-}
-
 .skull {
-
-}
-.column-four {
-  background: green;
-  font-style: italic;
-  margin: auto;
-  top: 60%;
-  left: 45%;
-  display: block;
-  max-width: 20%;
   position: fixed;
-  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10rem;
 }
+
 .eliminated {
+  position: fixed;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
   color: white;
-  float: left;
 }
 
 strong {

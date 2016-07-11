@@ -43,34 +43,35 @@ body {
 }
 
 .column-two {
-  right: 0;
+  right: 2rem;
   bottom: 0;
   position: fixed;
-  max-width: 10%;
-  margin: 2rem;
 }
 
 .weapon {
-  float: left;
-  background:
-  width: 50%;
+  display: inline-block;
 }
 
-.move-icons {
-  float: left;
-  width: 25%;
+.weapon-image {
+  margin: -5rem 0;
 }
 
-.move-key {
-  float: left;
-  width: 25%;
+
+
+.icon-container {
+  display: inline-block;
+  text-align: center;
+  margin: 3rem 1rem 0;
+  vertical-align: top;
 }
 
-.weapon-ammo {
-
+.icon-image {
+  display: block;
+  width: 2rem;
 }
 
-.weapon-text {
+.ammo-text {
+  text-align: right;
   color: white;
 }
 

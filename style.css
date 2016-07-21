@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 1rem;
+  background: url(https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/e/ec/Dorado-streets2.jpg/350px-Dorado-streets2.jpg?version=7dcb0b12ac9d9ab576c61ed7892b79b7)
 }
 body {
   margin: 0 0 2rem;
@@ -53,15 +54,14 @@ body {
 }
 
 .weapon-image {
-  margin: -5rem 0;
+  width: 10rem;
+  margin: -3rem 0;
 }
-
-
 
 .icon-container {
   display: inline-block;
   text-align: center;
-  margin: 3rem 1rem 0;
+  margin: 3rem 1rem 3rem;
   vertical-align: top;
 }
 
@@ -80,7 +80,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 10rem;
+  width: 5rem;
 }
 
 .eliminated {
@@ -89,12 +89,37 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
   color: white;
+  text-transform: uppercase;
 }
 
 strong {
   color: red;
 }
 
-.move-status {
+.health-bar {
+  overflow: auto;
+  width: 6.5rem;
+  height: 2rem;
+  -webkit-box-shadow: 7px 0px 5px -5px rgba(18,203,235,1);
+  -moz-box-shadow: 7px 0px 5px -5px rgba(18,203,235,1);
+  box-shadow: 7px 0px 5px -5px rgba(18,203,235,1);
+  border-bottom: .2rem gray solid;
+  padding: 0 1rem 1rem 0;
+}
 
+.bars {
+  background: white;
+  width:calc(50% / 16);
+  display: inline-block;
+  height: 100%;
+  float: left;
+  border: rgba(0,0,0,.52) solid 1px;
+  border-radius: .2rem;
+  opacity: .6;
+}
+
+.bars-orange {
+  background: orange;
+  width: calc(10% / 4);
+  float: right;
 }

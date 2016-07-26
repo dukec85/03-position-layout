@@ -1,8 +1,13 @@
 html {
   box-sizing: border-box;
   font-size: 1rem;
-  background: url(https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/e/ec/Dorado-streets2.jpg/350px-Dorado-streets2.jpg?version=7dcb0b12ac9d9ab576c61ed7892b79b7)
+  background: url(http://s3.amazonaws.com/captainkimo/wp-content/uploads/2015/06/Cityscape-Colors-at-West-Palm-Beach-Downtown.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 body {
   margin: 0 0 2rem;
   background-color: grey;

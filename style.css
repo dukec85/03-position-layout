@@ -1,7 +1,130 @@
 html {
   box-sizing: border-box;
-  font-size: 5rem;
+  font-size: 1rem;
+  background: url(http://s3.amazonaws.com/captainkimo/wp-content/uploads/2015/06/Cityscape-Colors-at-West-Palm-Beach-Downtown.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 body {
   margin: 0 0 2rem;
+  background-color: grey;
+}
+
+.column-one {
+  left: 0;
+  bottom: 0;
+  overflow: auto;
+  border: solid transparent;
+  position: fixed;
+  max-width: 25%;
+  margin: 2rem;
+}
+
+.avatar {
+  width: 20%;
+  float: left;
+}
+
+.image {
+  width: 100%;
+}
+
+.health {
+  float: left;
+}
+
+.health-text {
+  color: white;
+}
+
+.health-bars {
+  color: white;
+}
+
+.small {
+  font-size: 50%;
+}
+
+.column-two {
+  right: 2rem;
+  bottom: 0;
+  position: fixed;
+}
+
+.weapon {
+  display: inline-block;
+}
+
+.weapon-image {
+  width: 10rem;
+  margin: -3rem 0;
+}
+
+.icon-container {
+  display: inline-block;
+  text-align: center;
+  margin: 3rem 1rem 3rem;
+  vertical-align: top;
+}
+
+.icon-image {
+  display: block;
+  width: 2rem;
+}
+
+.ammo-text {
+  text-align: right;
+  color: white;
+}
+
+.skull {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5rem;
+}
+
+.eliminated {
+  position: fixed;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  text-transform: uppercase;
+}
+
+strong {
+  color: red;
+}
+
+.health-bar {
+  overflow: auto;
+  width: 6.5rem;
+  height: 2rem;
+  -webkit-box-shadow: 7px 0px 5px -5px rgba(18,203,235,1);
+  -moz-box-shadow: 7px 0px 5px -5px rgba(18,203,235,1);
+  box-shadow: 7px 0px 5px -5px rgba(18,203,235,1);
+  border-bottom: .2rem gray solid;
+  padding: 0 1rem 1rem 0;
+}
+
+.bars {
+  background: white;
+  width:calc(50% / 16);
+  display: inline-block;
+  height: 100%;
+  float: left;
+  border: rgba(0,0,0,.52) solid 1px;
+  border-radius: .2rem;
+  opacity: .6;
+}
+
+.bars-orange {
+  background: orange;
+  width: calc(10% / 4);
+  float: right;
 }
